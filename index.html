@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src = "javascript.js"></script>
+  <title>Armirac</title>
+</head>
+
+
+<body>
+  <!--Ime i kontakt-->
+  <div class="topnav">
+    <div class="dropdown">
+      <button class="dropbtn">Kontakt</button>
+        <div class="dropdown-content">
+          <a href="#">00 387 63 330 884</a>
+          <a href="#">00 387 63 338 972</a>
+        </div>
+    </div>
+      <h1 class="wp-block-heading has-text-align-left"><strong>ARMIRAČ</strong></h1>
+  </div>
+
+<!--O radnji plus slika-->
+
+
+  <div class="firstimg">
+    <img name="slide">
+  </div>
+
+  <div class="text_o_radnji">
+      <h3>Proizvodnja i prodaja ARMIRAČ doo Posušje. <br>
+        Vršimo sve usluge izrada željeza i žice za armirani beton u građevinarstvu.<br>
+        Postoji mogućnost narudžbe većih količina s dostavom.<br></h3>
+  </div>
+
+
+<p><br></p>
+<p><br></p>
+
+<!--Katalog-->  
+
+<main>
+  <h1>Katalog</h1>
+  <p><br></p>
+    <div id = "cards-container">
+
+        <article class = "card">
+            <img src="" alt="Vilice">
+            <h3>Vilice</h3>
+        </article>
+
+        <article class = "card">
+          <img src="" alt="U-vilice">
+          <h3>U-vilice</h3>
+      </article>
+
+        <article class = "card">
+            <img src="" alt="Distanceri">
+            <h3>Distanceri</h3>
+        </article>
+
+        <article class = "card">
+            <img src="" alt="Kriz">
+            <h3>Križna spojnica za CD profil</h3>
+        </article>
+
+        <article class = "card">
+            <img src="" alt="Ovjes">
+            <h3>Direktni ovjes za CD profil</h3>
+        </article>
+
+    </div>
+</main>
+
+
+<!-- Kontakt za narudžbe -->
+
+
+<div class="kontakt">
+  <h2>NARUDŽBE</h2>
+  <form action="https://formsubmit.co/" method="POST">
+
+    <label for="name">Ime i Prezime</label>
+    <input type="text" id="fname" name="firstname" placeholder="Vaše ime i prezime...">
+
+    <label for="email">E-mail</label>
+    <input type="text" id="lname" name="lastname" placeholder="Vaša email adresa...">
+
+    <label for="country">Država</label>
+    <select id="country" name="country">
+      <option value="bih">BiH</option>
+      <option value="hrvatska">Hrvatska</option>
+      <option value="italija">Italija</option>
+      <option value="srbija">Srbija</option>
+    </select>
+
+    <label for="predmet">Proizvod</label>
+    <select id="predmet" name="predmet">
+      <option value="Vilice">Vilice</option>
+      <option value="U-vilice">U-vilice</option>
+      <option value="Distanceri">Distanceri</option>
+      <option value="Kriz">Križna spojnica za CD profil</option>
+      <option value="Ovjes">Direktni ovjes za CD profil</option>
+    </select>
+
+    <label for="subject">Poruka</label>
+    <textarea id="subject" name="subject" placeholder="Napišite što želite." style="height:200px"></textarea>
+
+    <input type="submit" value="Pošalji">
+
+  </form>
+</div>
+
+
+</body>

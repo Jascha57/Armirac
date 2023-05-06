@@ -1,0 +1,202 @@
+/* Gornja traka */
+h1 {
+  color: #F5B700;
+  padding: 0px 20px;
+  font-family: Verdana;
+  font-size: 300%;
+}
+
+.topnav {
+  background-image: linear-gradient(to left, #0B0033, #0F2A69);
+  overflow: hidden;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.dropbtn {
+  background-color: #0B0033;
+  color: #F5B700;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  text-align: right;
+  font-family: Verdana;
+}
+
+.dropdown {
+  float: right;
+  position: static;
+  display: inline-block;
+  text-align: right;
+  font-family: Verdana;
+}
+
+.dropdown-content {
+  text-align: right;
+  display: none;
+  position: static;
+  background-color: #0F2A69;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: Verdana;
+}
+
+.dropdown-content a {
+  color: #F5B700;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: Verdana;
+}
+.dropdown-content a:hover {background-color: #183e90;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #0F2A69;}
+
+
+
+body{
+  background-color: #0f2a69;
+  color: #f2f2f2;
+}
+
+
+
+.firstimg img{
+  width: 100%;
+  height: auto;
+}
+
+.text_o_radnji {
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+
+/* Katalog */
+h2
+{
+  margin-top:0px;
+  font-size:50px;
+  line-height:1.1;
+  text-align: center;
+}
+
+#cards-container
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.card
+{
+    background-color: var(--light-primary-color);
+    position:relative;
+    text-align: justify;
+    padding: 0.5rem;
+}
+
+#cards-container img {
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+main
+{
+    max-width: 100%;
+    margin: 4rem auto;
+    background-color: #d6d6d6;
+    color: #000;
+}
+
+ul.products li {
+  width: 370px; /* adjust the size of the catalog block */
+  display: inline-block; /* this creates the catalog effect */
+  text-align: center; /* align the image to center */
+  background-color:#d6d6d6 ; /* background color of each */
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border-radius: 10px; /* rounded borders effect */
+  border: 2px solid #585858; /* border and color */
+}
+
+@media screen and (max-width: 1200px) and (min-width: 951px)
+{
+    #cards-container
+    {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0.5rem;
+    }
+
+    .firstimg img{
+      width: 100%;
+      height: auto;
+    }
+}
+
+@media screen and (max-width: 950px)
+{
+    #cards-container
+    {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+
+    .firstimg img{
+      width: 100%;
+      height: auto;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    #cards-container
+    {
+        display:grid;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .firstimg img{
+      width: 100%;
+      height: auto;
+    }
+}
+
+
+/* NARUDŽBE */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+input[type=submit] {
+  background-color: #F5B700;
+  color: #000;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #ffd965;
+}
+
+
+.kontakt {
+  border-radius: 5px;
+  background-color: #d6d6d6;
+  color: #000;
+  padding: 20px;
+}
