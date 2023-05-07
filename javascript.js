@@ -3,10 +3,10 @@ var images = [];	// Images Array
 var time = 4000;	// Time Between Switch
 	 
 // Image List
-images[0] = "Slike\dec1.jpg";
-images[1] = "Slike\dec2.jpg";
-images[2] = "Slike\dec3.jpg";
-images[3] = "Slike\dec4.jpg";
+images[0] = "Slike/dec1.jpg";
+images[1] = "Slike/dec2.jpg";
+images[2] = "Slike/dec3.jpg";
+images[3] = "Slike/dec4.jpg";
 
 // Change Image
 function changeImg(){
