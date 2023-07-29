@@ -1,7 +1,4 @@
-// Run function when page loads
-window.onload=changeImg;
-
- const imgBx = document.querySelector('.imgBx');
+const imgBx = document.querySelector('.imgBx');
 const slides = imgBx.getElementsByTagName('img');
 var i = 0;
 var interval = 5000;
