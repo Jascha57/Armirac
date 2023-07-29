@@ -3,7 +3,7 @@ h1 {
   color: #F5B700;
   padding: 0px 20px;
   font-family: Verdana;
-  font-size: 300%;
+  font-size: 100%;
 }
 
 .topnav {
@@ -152,6 +152,8 @@ ul.products li {
       width: 100%;
       height: auto;
     }
+
+  
 }
 
 @media screen and (max-width: 600px)
@@ -169,7 +171,17 @@ ul.products li {
     }
 }
 
+@keyframes show
+{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
 
+@keyframes hide
+{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
 /* NARUDŽBE */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
