@@ -5,7 +5,7 @@ h1 {
   font-family: Verdana;
   font-size: 100%;
 }
-
+/*
 .topnav {
   background-image: linear-gradient(to left, #0B0033, #0F2A69);
   overflow: hidden;
@@ -56,7 +56,7 @@ h1 {
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #0F2A69;}
 
-
+*/
 
 body{
   background-color: #99a6af;
@@ -64,7 +64,7 @@ body{
 }
 
 
-
+/*
 .firstimg img{
   width: 100%;
   height: auto;
@@ -74,7 +74,7 @@ body{
   font-size: 25px;
   padding-left: 20px;
 }
-
+*/
 
 /* Katalog */
 h2
@@ -132,11 +132,12 @@ ul.products li {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 0.5rem;
     }
-
+/*
     .firstimg img{
       width: 100%;
       height: auto;
     }
+  */
 }
 
 @media screen and (max-width: 950px)
@@ -147,12 +148,12 @@ ul.products li {
         grid-template-columns: 1fr 1fr;
         gap: 0.5rem;
     }
-
+/*
     .firstimg img{
       width: 100%;
       height: auto;
     }
-
+*/
   
 }
 
@@ -164,11 +165,12 @@ ul.products li {
         grid-template-columns: 1fr;
         gap: 0.5rem;
     }
-
+/*
     .firstimg img{
       width: 100%;
       height: auto;
     }
+  */
 }
 
 @keyframes show
